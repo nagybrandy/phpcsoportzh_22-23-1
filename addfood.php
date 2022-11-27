@@ -1,6 +1,3 @@
-<?php
-    echo strtotime("2022-11-26") > date('Y-m-d') ? "yes" : "no";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
