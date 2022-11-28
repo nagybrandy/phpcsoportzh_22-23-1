@@ -38,7 +38,7 @@ Nézd meg a két videót az oldal működéséről:
 |Sorszám|Feladat|Pontok|
 |----|----|----|
 | 1. | A táblázat alapja készen van, jelenítsd meg az adatokat a jsonből kiolvasva. | <span style="color:red"> 3 pont </span>|
-| 2. | A kaják soraihoz add hozzá a ".lejart" classt, ha az étel már lejárt! Ehhez alakítsd át a lejárati dátumot az `strtotime()` függvénnyel, és hasonlítsd össze a mai dátummal (`date('Y-m-d')`)| <span style="color:red"> 1 pont </span>|
+| 2. | A kaják soraihoz add hozzá a ".lejart" classt, ha az étel már lejárt! Ehhez hasonlítsd összea lejárati dátumot a mai dátummal (`date('Y-m-d')`)| <span style="color:red"> 1 pont </span>|
 
 ### <span style="color:green">addfood.php</span>
 |Sorszám|Feladat|Pontok|
