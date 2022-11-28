@@ -52,7 +52,7 @@ Nézd meg a két videót az oldal működéséről:
 | 1. | Mentsd el a requestből kapott értékeket egy változóba! | <span style="color:red"> 1 pont </span>
 | 2. | Validáld a nevet, illetve a lejárati dátumot:||
 | |  a, A nevet csak akkor fogadja el, ha létezik, és legalább 3 karakter hosszú a két szélén lévő szóközök nélkül! (trim: https://www.php.net/manual/en/function.trim.php).|<span style="color:red"> 1 pont </span>|
-|  | b, A lejárati dátum akkor valid, ha meg van adva! |<span style="color:red"> 1 pont </span>|
+|  | b, A lejárati dátum akkor valid, ha meg van adva és hossza nagyobb, mint nulla! |<span style="color:red"> 1 pont </span>|
 |  | c, A három lehetséges hibaüzenetet fűzd hozzá az `errors` tömbhöz! |<span style="color:red"> 0.5 pont </span>|
 | 3. | A 'date' kulcshoz rendeld hozzá a mai dátumot a ` date('Y-m-d')` függvény segítségével, majd az új adatokat fűzd hozzá a food.jsonhöz! |<span style="color:red"> 2 pont </span>|
 |4. | Attól függően, hogy van-e hiba a validálásban, az oldalon megfelelő részeket jelenítsd meg! |<span style="color:red"> 1 pont </span>|
